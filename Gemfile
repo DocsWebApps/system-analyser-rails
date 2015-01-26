@@ -33,7 +33,7 @@ group :development, :test do
   # Add table properties info to models and specs
   gem 'annotate', '~> 2.6.5'    
   # My gem for testing  
-  gem 'page_right', '~> 0.5'
+  gem 'page_right', '~> 0.6'
   # Web browser driver for testing JS
   gem 'selenium-webdriver', '~> 2.43.0' 
   # Testing DSL

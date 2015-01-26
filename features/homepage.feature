@@ -18,26 +18,31 @@ Background: Assume the following data exists
 
 	We have a single server with a full days set of data
 
+
 Scenarios:
 
-When I land on the homepage of the System Analyser
+	When I land on the homepage of the System Analyser
 
-Scenario: Use the how-to
+	Scenario 1: Use the how-to
 
-	Then I want to read about how the system works and see some example images
+		Then I want to read about how the system works and see some example images
 
-Scenario: Contact support
+	Scenario 2: Contact support
 
-	Then I want to be able to find the contact details for the support team
+		Then I want to be able to find the contact details for the support team
 
-Scenario: Show server metrics display
+	Scenario 3: Show server metrics display
 
-	Then I want to select a server by name and a date and then be shown the server metrics for that server for that day
+		Then I want to select a server by name and a date and then be shown the server metrics for that server for that day
 
-Scenario: Menu
+	Scenario 4: Menu
 
-	Then I want to naviagte around the page using a menu with the following options,
-	| System Analyser	| Takes you to the top of tha page 				|
-	| Select System		| Takes you to the select system section 	|
-	| How To	 				|	Takes you to the How To section					|
-	| Contacts				| Takes you to the contacts section				|
+		Then I want to naviagte around the page using a menu with the following options,
+		| System Analyser	| Takes you to the top of the page 				|
+		| Select System		| Takes you to the select system section 	|
+		| How To	 				|	Takes you to the How To section					|
+		| Contacts				| Takes you to the contacts section				|
+
+	Scenario 5: Title amd description
+
+		Them I want to read the title of the application and a brief descrption of its function

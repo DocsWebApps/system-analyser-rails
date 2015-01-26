@@ -1,2 +1,23 @@
-<h1>SystemAnalyser#index</h1>
-<p>Find me in app/views/system_analyser/index.html.erb</p>
+%header
+	=render('layouts/homepage_navbar')
+	
+%div.container-fluid
+	#main
+		.row
+			.col-sm-12
+				#title
+					title-section
+		.row
+			.col-sm-6.hidden-xs
+				#image 
+					image section
+			.col-sm-6
+				#server-metrics 
+					server-metrics-section
+
+	.row
+		#how-to 
+			how-to section
+	.row
+		#contacts 
+			contacts-section

@@ -1,3 +1,43 @@
 // Place all the styles related to the SystemAnalyser controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.navbar{
+
+}
+
+#main {
+	border: 2px solid black;
+	height:500px;
+	margin: 10px;
+}
+
+#title {
+	border: 2px solid black;
+	height:100px;
+	margin: 10px 10px 10px 10px;
+}
+
+#how-to {
+	border: 2px solid black;
+	height:500px;
+	margin: 20px;
+}
+
+#server-metrics {
+	border: 2px solid black;
+	height:360px;
+	margin: 0px 10px 20px 10px;
+}
+
+#image {
+	border: 2px solid black;
+	height:360px;
+	margin: 0px 10px 20px 10px;
+}
+
+#contacts {
+	border: 2px solid black;
+	height:300px;
+	margin: 20px;
+}

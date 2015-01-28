@@ -1,17 +1,20 @@
 %header
 	=render('layouts/homepage_navbar')
-	
-%div.container-fluid
-	#main
+
+#main
+	%div.container-fluid
 		.row
 			.col-sm-12
 				#title
-					title-section
+					#title-text
+						System Analyser
+					#lead-text
+						How are your servers today?
 		.row
-			.col-sm-6.hidden-xs
+			.col-sm-9.hidden-xs
 				#image 
-					image section
-			.col-sm-6
+					=image_tag 'system-analyser.jpg'
+			.col-sm-3
 				#server-metrics 
 					server-metrics-section
 

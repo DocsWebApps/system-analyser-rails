@@ -4,7 +4,7 @@ ruby '2.1.5'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 4.2.0'
 # Use postgresql as the database for Active Record
-gem 'sass-rails', '~> 5.0.0'
+
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '~> 2.6.0'
 # Use CoffeeScript for .js.coffee assets and views
@@ -16,8 +16,9 @@ gem 'jquery-rails', '~> 4.0.2'
 gem 'jquery-ui-rails', '~> 5.0.3'
 # Build JSON APIs with ease.
 gem 'active_model_serializers', '~> 0.9.2'
-# Bootstrap 3.0
-gem 'bootstrap-sass', '~> 3.3.1.0'
+# Sass 5 and Bootstrap 3
+gem 'sass-rails', '~> 5.0.0'
+gem 'bootstrap-sass', '~> 3.3.3'
 # Speedy AJAX page loading
 gem 'turbolinks'
 

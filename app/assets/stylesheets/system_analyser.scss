@@ -2,25 +2,41 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-.navbar{
+.navbar {
+	margin: 0px;
+	.nav > li > a {
+	  color: #5555AA;
+	}
+}
 
+.navbar-default .navbar-brand {
+	color: #5555AA;
 }
 
 #main {
-	border: 2px solid black;
 	height:500px;
-	margin: 10px;
+	background-color: #5555AA;
 }
 
 #title {
-	border: 2px solid black;
+	color: white;
+	text-align: center;
 	height:100px;
 	margin: 10px 10px 10px 10px;
+
+	#title-text {
+		font-weight: bold;
+		font-size: 2.5em;
+	}
+
+	#lead-text {
+		font-size: 1.5em;
+	}
 }
 
 #how-to {
 	border: 2px solid black;
-	height:500px;
+	height: 500px;
 	margin: 20px;
 }
 
@@ -31,8 +47,12 @@
 }
 
 #image {
-	border: 2px solid black;
-	height:360px;
+	img {
+	 display: block;
+	 height: 100%;
+	 max-width: 100%;
+	}
+	height: 360px;
 	margin: 0px 10px 20px 10px;
 }
 

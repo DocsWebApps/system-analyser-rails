@@ -34,11 +34,11 @@ class CheckHomepageTest < ActionDispatch::IntegrationTest
   end
 
   test 'Scenario 5: Title amd description' do
-    is_css_in_page? '#header'
-    is_css_in_section? '#header', '#title'
-    is_css_in_section? '#header', '#image'
-    #is_text_in_section? '#title', 'System Analyser'
-    #is_text_in_section? '#title', 'description here'
+    is_css_in_page? '#main'
+    is_css_in_section? '#main', '#title'
+    is_css_in_section? '#main', '#image'
+    is_text_in_section? '#title', 'System Analyser'
+    is_text_in_section? '#title', 'How are your servers today?'
   end
 
 end  

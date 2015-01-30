@@ -18,7 +18,6 @@ Background: Assume the following data exists
 
 	We have a single server with a full days set of data
 
-
 Scenarios:
 
 	When I land on the homepage of the System Analyser
@@ -45,4 +44,8 @@ Scenarios:
 
 	Scenario 5: Title amd description
 
-		Them I want to read the title of the application and a brief descrption of its function
+		Then I want to read the title of the application and a brief descrption of its function
+
+	Scenario 6: 
+
+	Then I want to see an image (sample output) in the main section of the homepage

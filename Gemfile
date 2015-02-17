@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 # Ruby version
-ruby '2.1.5'
+ruby '2.2.0'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 4.2.0'
 # Use postgresql as the database for Active Record
@@ -21,6 +21,10 @@ gem 'sass-rails', '~> 5.0.0'
 gem 'bootstrap-sass', '~> 3.3.3'
 # Speedy AJAX page loading
 gem 'turbolinks'
+# MongoDB gems
+gem 'mongoid', '~> 4.0.1'
+#gem 'mongoid', '~> 4', github: 'mongoid/mongoid'
+gem 'bson_ext'
 
 group :development do
   # Automated deployment to production or staging environments

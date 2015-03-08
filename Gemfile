@@ -15,7 +15,7 @@ gem 'haml', '~> 4.0.6'
 gem 'jquery-rails', '~> 4.0.2'
 gem 'jquery-ui-rails', '~> 5.0.3'
 # Build JSON APIs with ease.
-gem 'active_model_serializers', '~> 0.9.2'
+gem 'active_model_serializers', '~> 0.9.3'
 # Sass 5 and Bootstrap 3
 gem 'sass-rails', '~> 5.0.0'
 gem 'bootstrap-sass', '~> 3.3.3'

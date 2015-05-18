@@ -13,4 +13,8 @@
 //= require jquery
 //= require bootstrap-sprockets
 //= require jquery_ujs
+//= require jquery.flot
+//= require jquery.flot.time
+//= require jquery.flot.selection
+//= require jquery.flot.crosshair
 //= require_tree .

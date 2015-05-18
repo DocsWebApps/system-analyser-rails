@@ -25,6 +25,8 @@ gem 'mongoid', '~> 4.0.1'
 gem 'bson_ext'
 # Cool fonts and glyphs that are scalable
 gem "font-awesome-rails",'~> 4.2.0'
+# Flot 0.8.3 plotting library
+gem 'flot-rails', :git => "https://github.com/Kjarrigan/flot-rails.git"
 
 group :development do
   # Automated deployment to production or staging environments

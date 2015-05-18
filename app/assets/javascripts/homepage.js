@@ -34,7 +34,7 @@ var INDEX_PAGE={
     $.get('/servers', function(servers) {
       var options='<option></option>';
       servers.forEach(function(value, index, array) {
-        options+="<option value='"+value+"''>"+value+"</option>";
+        options+="<option value='"+value+"''>"+value.capitalize()+"</option>";
       });
       $('#server-select').html('<select id="server" autofocus="autofocus">'+options+'</select>');
     });
@@ -42,6 +42,9 @@ var INDEX_PAGE={
 };
 
 $(document).ready(function() {
+  String.prototype.capitalize = function() {
+    return this.charAt(0).toUpperCase() + this.slice(1);
+  }
   INDEX_PAGE.fetchServers();
-  //INDEX_PAGE.listeners();
+  INDEX_PAGE.listeners();
 });

@@ -1,0 +1,18 @@
+%h1 
+  Server Metrics For 
+  =@server_metrics[:server].capitalize()
+  Taken On
+  =@server_metrics[:date].capitalize()
+
+#cpu-metrics
+#mem-metrics
+#disk-metrics
+#netIn-metrics
+#netOut-metrics
+
+%script
+  PLOT_GRAPH.plot(#{@server_metrics[:cpuMetrics]},'#cpu-metrics','CPU Utilisation (%)','#5555AA');
+  PLOT_GRAPH.plot(#{@server_metrics[:memMetrics]},'#mem-metrics','Memory Utilisation (%)','#55AA55');
+  PLOT_GRAPH.plot(#{@server_metrics[:diskMetrics]},'#disk-metrics','Disk Utilisation (IO/sec)','#AA5555');
+  PLOT_GRAPH.plot(#{@server_metrics[:netInMetrics]},'#netIn-metrics','Network Traffic In (packets/sec)','#676767');
+  PLOT_GRAPH.plot(#{@server_metrics[:netOutMetrics]},'#netOut-metrics','Network Traffic Out (packets/sec)','#5A5AA5');

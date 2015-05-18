@@ -23,7 +23,7 @@ class CheckHomepageTest < ActionDispatch::IntegrationTest
   test 'Scenario 3: Show server metrics display' do
     is_css_in_page? '#server-metrics'
     is_css_in_section? '#server-metrics', '#server-select'
-    is_text_in_section? '#server-metrics', 'Please select a server from the drop down list below..'
+    is_text_in_section? '#server-metrics', 'Please select a server ..'
   end
 
   test 'Scenario 4: Menu'  do

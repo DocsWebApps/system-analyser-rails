@@ -3,8 +3,6 @@ source 'https://rubygems.org'
 ruby '2.2.2'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 4.2.1'
-# Use postgresql as the database for Active Record
-
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '~> 2.6.0'
 # Use CoffeeScript for .js.coffee assets and views
@@ -25,6 +23,8 @@ gem 'turbolinks'
 gem 'mongoid', '~> 4.0.1'
 #gem 'mongoid', '~> 4', github: 'mongoid/mongoid'
 gem 'bson_ext'
+# Cool fonts and glyphs that are scalable
+gem "font-awesome-rails",'~> 4.2.0'
 
 group :development do
   # Automated deployment to production or staging environments

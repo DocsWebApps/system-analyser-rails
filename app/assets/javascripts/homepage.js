@@ -2,7 +2,7 @@
 //# All this logic will automatically be available in application.js.
 //# You can use CoffeeScript in this file: http://coffeescript.org/
 
-var INDEX_PAGE={
+var HOME_PAGE={
   // Set listeners on page load
   listeners: function() {
     $('#server-select').on('change', '#server', function() {
@@ -45,6 +45,6 @@ $(document).ready(function() {
   String.prototype.capitalize = function() {
     return this.charAt(0).toUpperCase() + this.slice(1);
   }
-  INDEX_PAGE.fetchServers();
-  INDEX_PAGE.listeners();
+  HOME_PAGE.fetchServers();
+  HOME_PAGE.listeners();
 });

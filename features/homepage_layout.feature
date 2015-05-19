@@ -48,4 +48,4 @@ Scenarios:
 
 	Scenario 6: 
 
-	Then I want to see an image (sample output) in the main section of the homepage
+	Then I want to see an image (sample output) in the main section of the homepage.

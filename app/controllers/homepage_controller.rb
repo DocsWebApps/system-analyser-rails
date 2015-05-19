@@ -5,7 +5,7 @@ class HomepageController < ApplicationController
   end
 
   def get_server_dates
-    dates=Metric.where(server: params[:server]).distinct(:date)
+    dates=Metric.where(server: params[:server]).asc.distinct(:date)
     render json: dates, status: 200, root: false
   end
 

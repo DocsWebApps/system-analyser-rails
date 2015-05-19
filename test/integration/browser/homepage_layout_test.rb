@@ -2,7 +2,7 @@ require 'test_helper'
 
 # Tests the layout of the page by setting up a the application and interagating the html/css that gets returned
 
-class CheckHomepageTest < ActionDispatch::IntegrationTest
+class HomepageLayoutTest < ActionDispatch::IntegrationTest
   
   def setup 
     visit root_path 

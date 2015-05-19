@@ -1,5 +1,14 @@
 #server-metrics-title {
   text-align: center;
+  background-color: #5555AA;
+  color: white;
+  margin-bottom: 50px;
+  height: 100px;
+  h1 {
+    margin-top: 0px;
+    padding-top: 25px;  
+    font-weight: bold;
+  }
 }
 
 #cpu-metrics {

@@ -15,7 +15,7 @@ class HomepageController < ApplicationController
     metrics_array=Metric.where(_id: "#{server}-#{date}").first.server_metrics
 
     @server_metrics={server: server,
-                    date: date,
+                    date: "#{date[2,2]}/#{date[0,2]}/#{date[4,4]}",
                     cpuMetrics: metrics_array[0]['cpu'],
                     memMetrics: metrics_array[1]['mem'],
                     diskMetrics: metrics_array[2]['disk'],

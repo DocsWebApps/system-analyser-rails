@@ -1,6 +1,7 @@
 var PLOT_GRAPH={
   plot: function (data, targetDiv, label, color) {
-    var options, plot,
+    var options, 
+        plot,
         targetDiv=$(targetDiv);
 
     options= {
